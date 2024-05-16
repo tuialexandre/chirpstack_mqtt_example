@@ -1,10 +1,10 @@
 import paho.mqtt.client as mqtt
 
 topic = "#"
-host_address = "192.168.0.181"
+host_address = "localhost"
 host_port = 1883
-mqtt_username = "radioenge"
-mqtt_password = "radioenge"
+mqtt_username = "myusername"
+mqtt_password = "mypassword"
 
 
 # The callback for when the client receives a CONNACK response from the server.

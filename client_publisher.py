@@ -1,15 +1,15 @@
 import paho.mqtt.client as mqtt
 
 
-application_id = "04f855fb-fd17-4cd1-b5c5-51d7b15e3730"
-devEui = "0012f800000029a6"
+application_id = "..."
+devEui = "..."
 fPort = 10
-data = "QVQrU0VORD0zOnRlc3Rl"
+data = "..."
 
-host_address = "192.168.0.181"
+host_address = "localhost"
 host_port = 1883
-mqtt_username = "radioenge"
-mqtt_password = "radioenge"
+mqtt_username = "myusername"
+mqtt_password = "mypassword"
 
 # Chirpstack downlink topic format: application/[ApplicationID]/device/[DevEUI]/command/down
 topic = f"application/{application_id}/device/{devEui}/command/down"
